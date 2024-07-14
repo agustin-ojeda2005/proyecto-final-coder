@@ -1,0 +1,106 @@
+#promociones {
+    padding-bottom: 1em;
+    img {
+        width: 100%;
+    }
+    .promo-image {
+        width: 100%;
+        padding-top: 52px;
+        margin-bottom: 1em;
+        img {
+            object-fit: cover;
+        }
+        #carouselExampleSlidesOnly {
+            width: 100%;
+        }
+    }
+    h1 {
+        text-align: center;
+        font-size: $fsz;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: .5em;
+    }
+    .promos {
+        width: 80%;
+        margin: 0 auto;
+        p {
+            margin-top: .7em;
+            font-size: $fsz-small*1.5;
+            font-weight: 700;
+            color: $darkgreen;
+            text-align: center;
+        }
+        article {
+            margin-bottom: 1em;
+            padding: 1em;
+        }
+        &__current {
+            background: rgba(0,0,0,.1);
+            box-shadow: $food-shadow;
+            .promos__one {
+                ul {
+                    border-bottom: 2px solid #ccc;
+                    padding: 0;
+                    li {
+                        margin-bottom: 1em;
+                        font-size: $fsz-small;
+                        font-weight: 600;
+                        text-align: center;
+                        span {
+                            display: block;
+                            text-align: center;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+            .promos__two {
+                img {
+                    height: 15em;
+                    object-fit: cover;
+                }
+                h3 {
+                    margin: 1em 0;
+                    padding-bottom: 1em;
+                    text-align: center;
+                    font-size: $fsz-small*1.5;
+                    border-bottom: 2px solid #ccc;
+                }
+            }
+        }
+        &__new {
+            .promos__three {
+                h3 {
+                    position: relative;
+                    text-align: center;
+                    font-size: $fsz;
+                    font-weight: 800;
+                    color: $lightgreen;
+                }
+                .promo-container {
+                    box-shadow: $food-shadow;
+                    padding: 1em;
+                    background: $lightblack;
+                    }
+                    p {
+                        color: $whitecustom;
+                    }
+                }
+            }
+        }
+    }
+
+.footer-promo {
+    .info {
+        h3 {
+            font-weight: bold;
+        }
+    ul {
+        padding: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}

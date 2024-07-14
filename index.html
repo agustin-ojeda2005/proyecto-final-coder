@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="https://kit.fontawesome.com/6dfafeada5.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="TREBOL, COMIDA, FOOD, RESTO, BAR, CASERA">
+    <meta name="description" content="Resto Bar ubicado en Av. Lope de Vega 14. Sirviendo la mejor atención y comida casera desde Villa Luro. ¿No nos creés? ¡Probá vos mismo/a!">
+    <link rel="icon" href="multimedia/favicon/favicon.ico">
+    <link rel="icon" type="image/png" href="multimedia/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="multimedia/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>El Trébol Resto Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/header.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <a href="index.html"><img class="logo" src="multimedia/logos/logosmall.png" alt="Logo de El Trébol"></a>
+                <a href="index.html"><h2 class="logo-container__name">El Trébol</h2></a>
+            </div>
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="hamburger-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="index.html">Home</a></li>
+                <li class="nav-list__item"><a href="carta.html">Carta</a></li>
+                <li class="nav-list__item"><a href="delivery.html">Delivery</a></li>
+                <li class="nav-list__item"><a href="promociones.html">Promociones</a></li>
+                <li class="nav-list__item"><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <div class="btn-container">
+                <a href="https://www.pedidosya.com.ar" class="btn-container__btn" target="_blank">Pedí Ya!</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="local">
+            <article class="local__info">
+                <h1>El Trébol <span>Resto Bar</span></h1>
+                <p>Hacemos la mejor comida casera de Villa Luro. ¿Todavía no la probaste? ¿Qué estás esperando?</p>
+            </article>
+            <div class="local__wpp">
+                <a href="https://api.whatsapp.com/send?phone=541138949913&text=Hola,%20quisiera%20hacerte%20un%20pedido!" target="_blank"><img src="multimedia/icons/whatsapp.png" alt="Pedí por WhatsApp"> ¡Hacénos tu pedido!</a>
+            </div>
+        </section>
+
+        <section class="daymenu">
+            <div class="daymenu__info">
+                <h2>Menús del día</h2>
+                <p>Cada día ofrecemos 3 platos a un precio de <span>$350</span>, estos son los de hoy:</p>
+            </div>
+            <div class="daymenu__img">
+                <article class="img wow animate__animated animate__fadeInLeft">
+                    <img src="multimedia/food/pecrus.jpeg" alt="Milanesas de Peceto con Papas Rústicas">
+                    <p>Milanesas de peceto <span>c/Papas rústicas</span></p>
+                </article>
+                <article class="img wow animate__animated animate__fadeInRight">
+                    <img src="multimedia/food/pastelpapa.jpeg" alt="Pastel de Papa">
+                    <p>Pastel de Papa</p>
+                </article>
+                <article class="img wow animate__animated animate__fadeInLeft">
+                    <img src="multimedia/food/fideos.jpeg" alt="Fideos caseros al huevo c/Estofado">
+                    <p>Fideos al huevo c/Estofado</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="info">
+            <h3>El Trébol de Villa Luro - Resto Bar</h3>
+            <p>Av. Lope de Vega 14, C.A.B.A.</p>
+            <p>4635-9472</p>
+            <p>+54 11 3894-9913</p>
+        </div>
+        <div class="site-map">
+            <ul class="site-map__nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="carta.html">Carta</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/eltreboldevillaluro" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/eltreboldevillaluro/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="https://wowjs.uk/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

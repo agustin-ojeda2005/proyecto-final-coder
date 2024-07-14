@@ -1,0 +1,99 @@
+main {
+    width: 100%;
+    background: $whitecustom;
+    .local {
+        padding-top: 5em;
+        background: url(../multimedia/gral/local.jpg) no-repeat center rgb(82, 82, 82);
+        background-blend-mode: multiply;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+            flex-flow: column;
+            justify-content: center;
+        &__info {
+            display: flex;
+                flex-flow: column;
+                text-align: center;
+            width: 90%;
+            margin: 0 auto;
+            h1 {
+                display: flex;
+                    flex-flow: column;
+                margin-bottom: .4em;
+                font-size: $fsz-big;
+                line-height: 1em;
+                color: $lightgreen;
+            }
+            p {
+                font-weight: 600;
+                color: $whitecustom;
+            }
+        }
+        &__wpp {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 3em;
+            a {
+                display: flex;
+                    align-items: center;
+                    justify-content: center;
+                padding: .7em 1em;
+                margin: .25em;
+                text-decoration: none;
+                background-color: $darkgreen;
+                color: $whitecustom;
+                border-radius: 1em;
+                img {
+                    width: 2.5em;
+                    height: 2.5em;
+                    margin: .25em;
+                }
+            }
+        }
+    }
+    .daymenu {
+        padding: 1em;
+        &__info {
+            display: flex;
+                flex-flow: column;
+                align-items: center;
+            h2 {
+                margin-bottom: .3em;
+                font-size: $fsz;
+            }
+            p {
+                margin-bottom: 2em;
+                font-size: $fsz-small/1.05;
+                font-weight: 500;
+                text-align: center;
+                span {
+                    font-weight: bold;
+                    color: $darkgreen;
+                }
+            }
+        }
+        &__img {
+            .img {
+                display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: auto auto auto;
+                width: 100%;
+                margin-bottom: 3em;
+                box-shadow: $food-shadow;
+                img {
+                    width: 100%;
+                }
+                p {
+                    display: flex;
+                        flex-flow: column;
+                    padding: 1em 0;
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: $fsz-small*1.2;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
